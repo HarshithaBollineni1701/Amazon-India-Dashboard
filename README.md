@@ -43,15 +43,12 @@ The primary focus is to combine data-driven analysis with AI-assisted insights, 
 
 ## Technology Stack
 
-Technology      -     Application
-
-Python          -     Core application development
-Pandas          -     Data cleaning, processing, and analysis
-Streamlit       -     Interactive dashboard interface
-Plotly          -     Interactive data visualization
-OpenAI API      -     LLM integration
-RAG             -     Context-based information retrieval
-
+- Python: Core programming language used for application development.
+- Pandas: Used for data cleaning, preprocessing, manipulation, and analysis.
+- Streamlit: Used to build the interactive web-based dashboard.
+- Plotly: Used to create interactive charts and data visualizations.
+- OpenAI API: Integrates Large Language Models (LLMs) for AI-powered responses.
+- Retrieval-Augmented Generation (RAG): Retrieves relevant business information to provide context-based AI responses.
 ## Project Objective
 
 The objective of this project is to demonstrate how data analytics and Generative AI can work together to improve business intelligence.
