@@ -43,14 +43,14 @@ The primary focus is to combine data-driven analysis with AI-assisted insights, 
 
 ## Technology Stack
 
-| Technology | Application |
+Technology      -     Application
 
-| Python | Core application development |
-| Pandas | Data cleaning, processing, and analysis |
-| Streamlit | Interactive dashboard interface |
-| Plotly | Interactive data visualization |
-| OpenAI API | LLM integration |
-| RAG | Context-based information retrieval |
+Python          -     Core application development
+Pandas          -     Data cleaning, processing, and analysis
+Streamlit       -     Interactive dashboard interface
+Plotly          -     Interactive data visualization
+OpenAI API      -     LLM integration
+RAG             -     Context-based information retrieval
 
 ## Project Objective
 
