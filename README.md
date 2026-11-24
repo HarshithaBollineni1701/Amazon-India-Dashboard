@@ -54,3 +54,9 @@ The primary focus is to combine data-driven analysis with AI-assisted insights, 
 The objective of this project is to demonstrate how data analytics and Generative AI can work together to improve business intelligence.
 
 By combining structured sales analysis, interactive visualizations, LLM integration, and retrieval-based question answering, the application provides an accessible way to explore business data and generate meaningful insights for decision-making.
+
+## Live Demo
+
+Explore the deployed Amazon India AI-Powered Sales Analytics Dashboard:
+
+🚀 [Launch Dashboard](https://amazon-india-dashboard-xw8a9u9swpqkhcywcrtvkv.streamlit.app/)
