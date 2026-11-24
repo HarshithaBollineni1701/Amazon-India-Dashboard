@@ -6,39 +6,6 @@ This version is designed around your existing AI knowledge:
 - Role-based multi-agent orchestration
 - Prompt engineering
 
-It intentionally does **not** use traditional ML algorithms such as Random Forest,
-K-Means, TensorFlow, PyTorch or Scikit-learn. Pandas is used for data processing
-and calculations, not as an ML model.
-
-## Project files
-- `app.py` — complete Streamlit dashboard and AI copilot.
-- `requirements.txt` — required Python packages.
-- `Amazon Sales Data India.xlsx` — put your supplied workbook beside `app.py`,
-  or upload it from the dashboard sidebar.
-
-## Setup on Windows
-1. Install Python 3.10+.
-2. Extract this ZIP into a folder.
-3. Copy `Amazon Sales Data India.xlsx` into the same folder as `app.py`.
-4. Open the folder in VS Code.
-5. Open Terminal and run:
-
-   `python -m venv .venv`
-
-   `.venv\Scripts\activate`
-
-   `pip install -r requirements.txt`
-
-   `streamlit run app.py`
-
-## AI copilot setup
-The dashboard charts work without an API key. To use the AI copilot:
-- Add your API key in the sidebar, or set the `OPENAI_API_KEY` environment variable.
-- The default model field is `gpt-4o-mini`; change it if your provider uses another
-  model name.
-- The optional Base URL field supports providers that are compatible with the
-  OpenAI Python SDK.
-
 ## How the AI workflow works
 1. Intent router selects a specialist role (sales, product, orders, or channels).
 2. RAG prepares business evidence from the currently filtered dataset.
